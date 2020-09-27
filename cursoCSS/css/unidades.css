@@ -1,0 +1,93 @@
+*{
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+#position{
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: yellow;
+}
+
+
+
+
+
+
+/*********************************************************************************/
+.caja1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto; /*auto hace 50 y 50 a los costados*/
+    border: 10px solid blue;
+    box-sizing: content-box; /* el borde se sale 
+    box-sizing: border-box;     el borde es por dentro de lo definido*/
+    outline: 10px solid black /* lo marca sin mover el tamaño, no ocupa espacio
+                                    para que este por sobre lo demas elementos se usa
+                                    un z-index*/
+                            
+
+
+}
+
+.caja2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: auto; 
+    border: 10px solid green;
+    box-sizing: border-box; 
+    outline: 10px solid grey; 
+}
+
+.espacio{
+    font-size: xx-large;
+    color: hotpink;
+    width: 50%;
+}
+
+
+
+/********************************************************************************/
+
+.propiedadesBox{
+    color: red;
+    display: inline;
+    /*display cambia las propiedades EN LINEA o EN BLOQUE*/
+}
+
+.propiedadesBox__h2{
+    font-size: xx-large;
+    background-color: rosybrown;
+    padding: 1em; /*Es la distancia entre el txt y la caja*/
+    margin: 1em; /*Distancia entre elementos*/
+    display: inline-block;
+    text-align: center;
+    border-radius: 2em; /*redondeos de bordes*/
+    border: 5px dashed blue;
+    box-shadow: 10px 10px 10px 0 black;
+    text-shadow: 1px 1px 1px white;
+    transform: rotate(45deg)
+}
+
+/********************************************************************************/
+
+.contact-form{
+    font-size: 20px;
+    background-color: green;
+    width: 50vw;
+    height: 50vh;
+    /*viewport Height y Width es el ancho y alto total de la pantlla*/
+    /*si aplico 50% seria la mitad del tamaño de la caja que lo contiene*/
+}
+
+.contact-form__h2{
+    font-size: 2em;
+    /*como esta dentro  de una caja que mide 20px, 2 em = 40 px*/
+    line-height: 1; /*ocupa .5 para arriba y .5 para abajo*/
+    font-weight: lighter; /*grosor de la letra*/
+    color: red;
+} 

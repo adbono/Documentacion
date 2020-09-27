@@ -1,0 +1,38 @@
+*{
+    color: darkslategray;
+}
+
+/*Seleccion por etiqueta*/
+
+h1{
+    color: deeppink;
+}
+
+/*seleccion por clases*/
+
+.titulo-h2{
+    color: blue;
+}
+
+/*por ID*/
+#idTitulo{
+    color:green
+}
+
+/* por atributo*/
+[atributoloco="sii"]{
+    background-color: darkred;
+    color: white;
+}
+
+/*Descendencia*/
+
+h3 p {
+    color:darkred
+}
+
+/*PseudoClase (eventos)*/
+
+h2:hover{
+    color: darksalmon;
+}

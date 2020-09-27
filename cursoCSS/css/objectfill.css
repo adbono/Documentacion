@@ -1,0 +1,42 @@
+
+.caja{
+    width: 100px;
+    height: 200px;
+    display: flex;
+
+}
+
+.caja img{
+    width: 100%;
+    border: 2px solid red;
+    object-fit: contain; /*las resoluciones se ajustan al contenido*/
+}
+
+.caja2 {
+    width: 200px;
+    height: 300px;
+}
+
+.caja2 img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    object-fit: cover; /*se ajusta al contenedor*/
+}
+
+.caja3 {
+    width: 200px;
+    height: 300px;
+}
+
+.caja3 img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    object-fit: none; 
+    object-position: left; /*hago que la imagen se vea mas a la izq*/
+
+}
+
+
+/**/

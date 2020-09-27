@@ -1,0 +1,21 @@
+*{
+    font-size: 30px;
+}
+
+
+
+.contenedor div{
+    width: 50%;
+    float: right;
+}
+
+.primario{
+    background-color: red;
+    
+}
+
+.secundario{
+    background-color: yellow;
+    
+}
+

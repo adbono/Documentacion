@@ -1,0 +1,12 @@
+.contact-form__input{
+    color: blue;
+}
+
+.contact-form__input:first-child{
+    color: red
+}
+
+.contact-form__input--active{
+    color: yellowgreen
+    /*de esta forma despues con JS se puede jugar con la clase*/
+}

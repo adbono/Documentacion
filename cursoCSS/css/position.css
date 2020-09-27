@@ -1,0 +1,46 @@
+*{
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+div {
+    display: block;
+    background: yellow;
+    /*position: absolute; /*nueva propiedad! ahora es en linea*/
+                        /**/
+}
+
+
+.caja_fixed{
+    font-size: 40px;
+    background-color: red;
+    position: fixed;
+}
+
+.texto{
+    font-size: 40px;
+}
+
+.caja1{
+    background-color: orange;
+}
+
+.caja2{
+    background-color: green;
+    position: relative; /*con position el elemento conserva su espacion*/
+    top: 5px;          /*por mas que le de espacio de alto*/
+    left: 100px;        /*y a la izquierda*/
+    z-index: 10;        /*al poner un POSITION tambien puedo usar zindex*/
+
+}
+
+.caja3{
+    background-color: lightblue;
+    position: absolute; /*ABSOLUTE deja de reservar el espacio*/
+    left: 70px;
+}
+
+.caja4{
+    background-color: lightpink;
+}

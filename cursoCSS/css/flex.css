@@ -1,0 +1,75 @@
+.flex-container{
+    display: flex;
+}
+
+.flex-item{
+    background-color: #248;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    
+     
+}
+
+#naranja{
+    background-color: orange;
+}
+
+.flex-item2{
+    background-color: #248;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flex-container3{
+    display: flex;
+    flex-flow: column wrap;
+     
+}
+
+.flex-item3{
+    background-color: #248;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    min-width: 100px;
+    height: 30px;
+}
+
+.flex-container4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    align-content: flex-start;
+}
+
+.flex-item4{
+    background-color: rgb(136, 34, 34);
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    min-width: 150px;
+    height: 100px;
+    
+}
+
+#cajaflexgrow{
+    flex-grow: 1; /*Hace que ocupe todo el espacio sobrante
+                    el numero es la cantidad de partes que ocupa
+                    puedo poner 2,3,4*/
+
+    flex-shrink: 1;/*es el espacio que puede ceder la caja*/
+    order: -4; /*es como el z index*/
+}
+
