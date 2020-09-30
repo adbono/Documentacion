@@ -1,6 +1,6 @@
 <h2>{{titulo}}</h2>
 <ul>
-    <li>Nike</li>
-    <li>Reebok</li>
-    <li>Adidas</li>
+    <li *ngFor="let zapa of zapatillas">
+        {{zapa.nombre}} - <strong>{{zapa.precio}}</strong>
+    </li>
 </ul>

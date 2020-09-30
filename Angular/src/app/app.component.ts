@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { Configuracion } from "./models/configuracion";
 
 @Component({

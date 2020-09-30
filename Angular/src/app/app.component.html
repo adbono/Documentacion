@@ -1,19 +1,16 @@
-<div [ngStyle]="{
-      'background': config.color
-      }">
+<div>
   <h1>
     Bienvenido al {{title}}!
   </h1>
-  <p>Vamos a aprender Angular</p>
-  <p>crear componente por consola</p>
   <p>por cmd -> ng generate componente "nombre" </p>
 
   <button (click)="ocultarVideoJuegos(false)" *ngIf="mostrar_videojuegos">Ocultar</button>
   <button (click)="ocultarVideoJuegos(true)" *ngIf="!mostrar_videojuegos">Mostrar</button>
 
-
+  <!--
   <videojuego *ngIf="mostrar_videojuegos"></videojuego>
-  <zapatillas></zapatillas>
   <cursos></cursos>
+  -->
+  <zapatillas></zapatillas>
 
 </div>
