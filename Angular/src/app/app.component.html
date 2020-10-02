@@ -1,16 +1,30 @@
+
 <div>
   <h1>
     Bienvenido al {{title}}!
   </h1>
+
+  <nav>
+    <a href="" routerLink="/home" routerLinkActive="activebutton">Home</a>
+    &nbsp;
+    <a href="" routerLink="/zapatillas" routerLinkActive="activebutton">Zapatillas</a>
+    &nbsp;
+    <a href="" routerLink="/videojuegos" routerLinkActive="activebutton">VideoJuegos</a>
+    &nbsp;
+    <a href="" routerLink="/cursos" routerLinkActive="activebutton">Cursos</a>
+  </nav>
+
+  <!--
   <p>por cmd -> ng generate componente "nombre" </p>
 
   <button (click)="ocultarVideoJuegos(false)" *ngIf="mostrar_videojuegos">Ocultar</button>
   <button (click)="ocultarVideoJuegos(true)" *ngIf="!mostrar_videojuegos">Mostrar</button>
-
+  -->
   <!--
   <videojuego *ngIf="mostrar_videojuegos"></videojuego>
   <cursos></cursos>
-  -->
   <zapatillas></zapatillas>
+  -->
+  <router-outlet></router-outlet>
 
 </div>

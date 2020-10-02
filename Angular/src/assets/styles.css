@@ -1,0 +1,16 @@
+.activebutton{
+    border: 3px solid yellow;
+}
+
+.altoPrecio{
+    color: gray;
+    font-size: 18px;
+}
+
+.fondoAzul{
+    background: blue
+}
+
+.subrayado{
+    text-decoration: underline;
+}

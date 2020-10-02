@@ -9,15 +9,11 @@ import { Configuracion } from "./models/configuracion";
 
 export class AppComponent {
   public title = 'Angular con ADB';
-  public mostrar_videojuegos: boolean = true;
   public config;
 
-  constructor(){
+  constructor() {
     this.config = Configuracion
     this.title = Configuracion.titulo
   }
 
-  ocultarVideoJuegos(value){
-    this.mostrar_videojuegos = value
-  }
 }

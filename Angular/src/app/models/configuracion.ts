@@ -1,6 +1,6 @@
 export var Configuracion = {
     color: "red",
     fondo: "blue",
-    titulo: "Esto es una prueba de titulo",
+    titulo: "Angular",
     descripcion: "Apendiendo Angular con Arielcito"
 }
